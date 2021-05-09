@@ -1,5 +1,12 @@
 /* || General Styles */
 
+:root {
+	--mainGreen: #048004;
+	--accentGreen: #44c767;
+	--lightGreen: hsl(107, 57%, 82%);
+	--lightGray: rgba(255, 255, 255, .4);
+}
+
 body {
 	font-family: 'Montserrat', Arial, sans-serif;
 	position: relative;
@@ -12,7 +19,7 @@ p {
 }
 
 .header {
-	background-color: #048004;
+	background-color: var(--mainGreen);
 }
 
 h1 {
@@ -51,7 +58,7 @@ h3 {
 /* Navbar */
 
 .nav-active {
-	background-color: #44c767;
+	background-color: var(--accentGreen);
 	border-radius: 28px;
 	border: 1px solid #18ab29;
 	display: inline-block;
@@ -62,7 +69,7 @@ h3 {
 }
 
 nav {
-	background-color: #048004;
+	background-color: var(--mainGreen);
 	font-size: large;
 }
 
@@ -163,7 +170,7 @@ footer {
 /* Social Media Call to Action */
 
 .social-bkg {
-	background-color: rgba(122, 242, 132, 0.461);
+	background-color: var(--lightGreen);
 	border-radius: 2rem;
 	width: 90%;
 	margin: auto;
@@ -233,7 +240,7 @@ footer {
 }
 
 .mainContent {
-	background-color: hsl(127, 72%, 82%);
+	background-color: var(--lightGreen);
 	border: 0.4rem;
 	border-radius: 0.5rem;
 	border-style: outset;
@@ -252,7 +259,6 @@ footer {
 	padding: 2rem;
 }
 
-
 #reviewIcon {
 	width: 20%;
 	display: inline-block;
@@ -265,7 +271,7 @@ footer {
 
 blockquote {
 	font-style: italic;
-	font-weight:600;
+	font-weight: 600;
 	text-align: left;
 	padding: 1rem 1rem 0rem 3rem;
 	position: relative;
@@ -283,7 +289,7 @@ blockquote::before {
 }
 
 .customerReview {
-	background-color: #CEFDCE;
+	background-color: var(--bgLightGreen);
 	border-radius: 1rem;
 	border: .2em solid #07DF07;
 	border-left: 1.5em solid #07DF07;
@@ -300,11 +306,11 @@ blockquote::before {
 }
 
 .review-controlL {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='green' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='green' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 .review-controlR {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='green' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='green' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 /* social Media icons */
@@ -351,7 +357,7 @@ form .error {
 }
 
 .aboutInfo2 {
-	background-color: rgba(122, 242, 132, 0.461);
+	background-color: var(--lightGreen);
 	border-radius: 20px;
 	text-align: center;
 }
