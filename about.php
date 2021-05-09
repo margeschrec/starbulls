@@ -16,7 +16,7 @@
 		<div class="containerAbout">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				<div class="carousel-inner hero-specials">
-					<img src="imgs/cofee3.png" width="100%">
+					<img src="./imgs/coffee3.png" width="100%">
 					<div class="item active">
 						<div class="carousel-caption">
 							<h1 class="p-2 hero-text">About Us</h1>
