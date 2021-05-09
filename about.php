@@ -19,7 +19,7 @@
 					<img src="imgs/cofee3.png" width="100%">
 					<div class="item active">
 						<div class="carousel-caption">
-							<h1 class="p-2 hero-text">About Us testing</h1>
+							<h1 class="p-2 hero-text">About Us testin</h1>
 						</div>
 					</div>
 				</div>
